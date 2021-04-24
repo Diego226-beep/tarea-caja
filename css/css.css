@@ -1,0 +1,89 @@
+*{
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+    color:white;
+}
+
+section{
+    width: 1300;
+    height: auto;
+    margin: auto;
+}
+
+.titulo{
+    font-size: 50px;
+    color: #D94848;
+    margin-top: 55px;
+    padding-bottom: 40px;
+}
+
+.Numeros_encajados_1{
+    
+    width: 90%;
+    height: auto;
+    border: 1px solid #707070; 
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin: auto auto 50px;
+}
+
+.Encajados_1{
+    display: flex;
+    padding-bottom:25px;
+}
+
+.Encajados_2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Encajados_1 div, .Encajados_2 div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 50px;
+    box-sizing: border-box;
+    margin: 25px;
+    padding-top: 15px;
+    background-color: #310F40; 
+    margin: auto; 
+    
+}
+
+.Numeros_encajados_2{
+    
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    margin: 50px;
+}
+
+.numeros_1 div{
+    
+    width: 400px;
+    height: auto;
+    margin: 5px 45px;
+    font-size: 35px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #9AD2D9;
+}
+
+.numeros_2{
+    
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.numeros_2 div{
+    
+    width: 400px;
+    height: auto;
+    margin: auto;
+    font-size: 35px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #D9644A;
+}
